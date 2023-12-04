@@ -11,47 +11,23 @@
 	--rojo-hover: #e5383b;
 	--verde: #09a129;
 }
-header {
-    background-color: transparent;
-    padding: 30px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #000000;
-}
 
-header ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.logout{
-	border: none;
-	background-color: red;
-	color: #fff;
-	padding: 5px 40px;
-	border-radius: 20px;
-	font-family: inherit;
-	cursor: pointer;
-	font-size: 13px;
-	justify-content: end		 ;
-
-}
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	max-width: 1200px;
 	margin: 40px auto;
 	display: flex;
 	justify-content: center;
-	background-image: url(../assets/img/fondo.jpg);
+	background-color: gray;
+
 }
 
 
 .card-to-do {	
-	padding: 25px;
+	padding: 2rem;
 	border-radius: 20px;
 	width: 700px;
+	background-image: url(../assets/img/fondo.jpg);
 }
 .card-to-do-title{
 	color: rgb(90, 7, 108);

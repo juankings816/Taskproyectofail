@@ -1,5 +1,5 @@
-import { Container } from '../components/Container/Container.jsx'
-import { LoginForm } from '../components/LoginForm/LoginForm.jsx'
+import { Container } from '../components/Container.jsx'
+import { LoginForm } from '../components/LoginForm.jsx'
 
 export const Login = () => {
   return (
