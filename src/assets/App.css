@@ -6,12 +6,38 @@
 
 :root {
 	--rojo: #ba181b;
-	--azul: #00b4d8;
+	--azul: #00d861;
 	--azul-hover: #48cae4;
 	--rojo-hover: #e5383b;
 	--verde: #09a129;
 }
+header {
+    background-color: transparent;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+}
 
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logout{
+	border: none;
+	background-color: red;
+	color: #fff;
+	padding: 5px 40px;
+	border-radius: 20px;
+	font-family: inherit;
+	cursor: pointer;
+	font-size: 13px;
+	justify-content: end		 ;
+
+}
 body {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	max-width: 1200px;

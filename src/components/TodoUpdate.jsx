@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { FaEdit } from 'react-icons/fa';
-import { useForm } from '../hooks/useForm';
+import { useForm } from '../hooks/UseForm';
 
 export const TodoUpdate = ({ todo, handleUpdateTodo }) => {
 	const { updateDescription, onInputChange } = useForm({
@@ -33,7 +33,6 @@ export const TodoUpdate = ({ todo, handleUpdateTodo }) => {
 				name='updateDescription'
 				value={updateDescription}
 				onChange={onInputChange}
-				placeholder='¿Qué hay que hacer?'
 				readOnly={disabled}
 				ref={focusInputRef}
 			/>

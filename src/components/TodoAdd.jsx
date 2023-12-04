@@ -1,8 +1,8 @@
 import React from 'react';
-import { useForm } from '../hooks/useForm';
+import { useForm } from '../hooks/UseForm';
 
 export const TodoAdd = ({ handleNewTodo }) => {
-	const { description, onInputChange, onResetForm } = useForm({
+	const { description, fecha, onInputChange, onResetForm } = useForm({
 		description: '',
 	});
 
@@ -14,6 +14,7 @@ export const TodoAdd = ({ handleNewTodo }) => {
 		let newTodo = {
 			id: new Date().getTime(),
 			description: description,
+			fecha:fecha,
 			done: false,
 		};
 
@@ -29,7 +30,14 @@ export const TodoAdd = ({ handleNewTodo }) => {
 				name='description'
 				value={description}
 				onChange={onInputChange}
-				placeholder='¿Qué hay que hacer?'
+				placeholder='Ingresa tu nueva tarea!'
+			/>
+			<input
+				type='date'
+				className='input-add'
+				name='fecha'
+				value={fecha}
+				onChange={onInputChange}
 			/>
 
 			<button className='btn-add' type='submit'>
