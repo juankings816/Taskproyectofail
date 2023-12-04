@@ -18,11 +18,11 @@ body {
 	margin: 40px auto;
 	display: flex;
 	justify-content: center;
+	background-image: url(../assets/img/fondo.jpg);
 }
 
 
-.card-to-do {
-	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+.card-to-do {	
 	padding: 25px;
 	border-radius: 20px;
 	width: 700px;

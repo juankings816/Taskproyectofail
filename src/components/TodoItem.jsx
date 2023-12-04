@@ -1,15 +1,14 @@
 import React from 'react'
 import { TbTrashXFilled } from "react-icons/tb";
-
-
+import { TodoUpdate } from './TodoUpdate';
 export const TodoItem = () => {
   return (
     <li>
         <span>
-            <label htmlFor="" className='container'></label>
+            <label htmlFor="" className='container-done'></label>
         </span>
-        <button className='btn-trash'>Borrar<TbTrashX/>
- </button>
+        <TodoUpdate/>
+        <button className='btn-trash'><TbTrashXFilled />Borrar</button>
     </li>
   )
 }

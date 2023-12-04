@@ -2,7 +2,6 @@
   import './assets/App.css'
   import { TodoAdd } from './components/TodoAdd'
   import { TodoList } from './components/TodoList'
-  import { TodoItem } from './components/TodoItem'
 function App() {
 
   return (
@@ -19,8 +18,9 @@ function App() {
           <TodoAdd />
         </div>
 
-        <TodoList />
+        
       </div>
+      <TodoList />
 
       <TodoList />  
     </>
